@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserSearch should be able to render 1`] = `
+<div>
+  <form
+    class="user-search"
+  >
+    <div
+      class="text-field"
+    >
+      <label
+        class="text-field__label"
+      >
+        Name
+      </label>
+      <input
+        class="text-field__input"
+        data-testid="text_field_name"
+        name="name"
+        required=""
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="user-search__action"
+    >
+      <button
+        class="custom-button custom-button--primary"
+        data-testid="submit-bt"
+      >
+        Search
+      </button>
+      <button
+        class="custom-button custom-button--secondary"
+        data-testid="clear-bt"
+      >
+        Clear search
+      </button>
+    </div>
+  </form>
+</div>
+`;

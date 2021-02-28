@@ -5,130 +5,134 @@ exports[`Comment List should be able to render table 1`] = `
   <table
     class="custom-table"
   >
-    <tr
-      class="custom-table__row"
-    >
-      <th
-        class="custom-table__row--header-column"
+    <thead>
+      <tr
+        class="custom-table__row"
       >
-        Profile Image
-      </th>
-      <th
-        class="custom-table__row--header-column"
-      >
-        First Name
-      </th>
-      <th
-        class="custom-table__row--header-column"
-      >
-        Last Name
-      </th>
-      <th
-        class="custom-table__row--header-column"
-      >
-        Email
-      </th>
-    </tr>
-    <tr
-      class="custom-table__row"
-      data-testid="custom-table-data-rows"
-    >
-      <td
-        class="custom-table__row--body-column"
-      >
-        <div
-          data-testid="custom-component"
+        <th
+          class="custom-table__row--header-column"
         >
-          custom component 
-        </div>
-      </td>
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
-      >
-        lachlan.roberts@example.com
-      </td>
-    </tr>
-    <tr
-      class="custom-table__row"
-      data-testid="custom-table-data-rows"
-    >
-      <td
-        class="custom-table__row--body-column"
-      >
-        <div
-          data-testid="custom-component"
+          Profile Image
+        </th>
+        <th
+          class="custom-table__row--header-column"
         >
-          custom component 
-        </div>
-      </td>
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
-      >
-        leona.campbell@example.com
-      </td>
-    </tr>
-    <tr
-      class="custom-table__row"
-      data-testid="custom-table-data-rows"
-    >
-      <td
-        class="custom-table__row--body-column"
-      >
-        <div
-          data-testid="custom-component"
+          First Name
+        </th>
+        <th
+          class="custom-table__row--header-column"
         >
-          custom component 
-        </div>
-      </td>
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
-      >
-        emilie.nielsen@example.com
-      </td>
-    </tr>
-    <tr
-      class="custom-table__row"
-      data-testid="custom-table-data-rows"
-    >
-      <td
-        class="custom-table__row--body-column"
-      >
-        <div
-          data-testid="custom-component"
+          Last Name
+        </th>
+        <th
+          class="custom-table__row--header-column"
         >
-          custom component 
-        </div>
-      </td>
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
-      />
-      <td
-        class="custom-table__row--body-column"
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="custom-table__row"
+        data-testid="custom-table-data-rows"
       >
-        ester.woll@example.com
-      </td>
-    </tr>
+        <td
+          class="custom-table__row--body-column"
+        >
+          <div
+            data-testid="custom-component"
+          >
+            custom component 
+          </div>
+        </td>
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        >
+          lachlan.roberts@example.com
+        </td>
+      </tr>
+      <tr
+        class="custom-table__row"
+        data-testid="custom-table-data-rows"
+      >
+        <td
+          class="custom-table__row--body-column"
+        >
+          <div
+            data-testid="custom-component"
+          >
+            custom component 
+          </div>
+        </td>
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        >
+          leona.campbell@example.com
+        </td>
+      </tr>
+      <tr
+        class="custom-table__row"
+        data-testid="custom-table-data-rows"
+      >
+        <td
+          class="custom-table__row--body-column"
+        >
+          <div
+            data-testid="custom-component"
+          >
+            custom component 
+          </div>
+        </td>
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        >
+          emilie.nielsen@example.com
+        </td>
+      </tr>
+      <tr
+        class="custom-table__row"
+        data-testid="custom-table-data-rows"
+      >
+        <td
+          class="custom-table__row--body-column"
+        >
+          <div
+            data-testid="custom-component"
+          >
+            custom component 
+          </div>
+        </td>
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        />
+        <td
+          class="custom-table__row--body-column"
+        >
+          ester.woll@example.com
+        </td>
+      </tr>
+    </tbody>
   </table>
 </div>
 `;

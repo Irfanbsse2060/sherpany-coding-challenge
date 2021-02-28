@@ -5,7 +5,7 @@ import {Button, ButtonType, TextField} from '../../UI'
 import {UserSearchInterface} from "../types";
 
 interface formProps {
-    onSubmit: (userSearch:UserSearchInterface) => void
+    onSubmit: (userSearch: UserSearchInterface) => void
     onClearFilter: () => void
 }
 
@@ -35,11 +35,11 @@ export default function UserSearch({onSubmit, onClearFilter}: formProps) {
         <form ref={formRef} onSubmit={handleSubmit} className='user-search'>
             <TextField label='Name' name='name' value={name} required={true} handleChange={handleChange}/>
             <div className='user-search__action'>
-                <Button type={ButtonType.primary} handleClick={handleSubmit} text={'Search'}/>
-                <Button type={ButtonType.secondary} handleClick={()=>{
+                <Button type={ButtonType.primary} handleClick={handleSubmit} text={'Search'} testId='submit-bt'/>
+                <Button type={ButtonType.secondary} handleClick={() => {
                     setState(initialState)
                     onClearFilter()
-                }} text={'Clear search'}/>
+                }} text={'Clear search'} testId='clear-bt'/>
             </div>
         </form>
     )

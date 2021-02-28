@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingPage should be able to render the component 1`] = `
+<div>
+  <main
+    class="settings-page"
+  >
+    <h3>
+       Select Nationality to filter user
+    </h3>
+    <ul
+      class="check-box"
+      data-testid="check-box"
+    >
+      <li
+        class="check-box__item"
+      >
+        <input
+          id="CH"
+          name="CH"
+          type="checkbox"
+          value="CH"
+        />
+        <label
+          for="CH"
+        >
+          Canada (CH)
+        </label>
+      </li>
+      <li
+        class="check-box__item"
+      >
+        <input
+          id="ES"
+          name="ES"
+          type="checkbox"
+          value="ES"
+        />
+        <label
+          for="ES"
+        >
+          Spain (ES)
+        </label>
+      </li>
+      <li
+        class="check-box__item"
+      >
+        <input
+          id="FR"
+          name="FR"
+          type="checkbox"
+          value="FR"
+        />
+        <label
+          for="FR"
+        >
+          France (FR)
+        </label>
+      </li>
+      <li
+        class="check-box__item"
+      >
+        <input
+          id="GB"
+          name="GB"
+          type="checkbox"
+          value="GB"
+        />
+        <label
+          for="GB"
+        >
+          United kingdom (GB)
+        </label>
+      </li>
+    </ul>
+  </main>
+</div>
+`;

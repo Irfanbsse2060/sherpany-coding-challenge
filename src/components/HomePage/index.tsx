@@ -89,7 +89,7 @@ function HomePage() {
         <Table header={headers} data={usersToShow.map((user) => {
             return {
                 thumbnail: user.picture.thumbnail,
-                picture: user.email,
+                email: user.email,
                 gender: user.gender,
                 nat: user.nat,
                 firstName: user.name.first,
@@ -127,7 +127,6 @@ function HomePage() {
             <section className='main-page__users-list'>
                 <h3>Users</h3>
                 {isFilterApplied ? renderTable() : renderInfiniteScrollTable()}
-
             </section>
         </main>
     );

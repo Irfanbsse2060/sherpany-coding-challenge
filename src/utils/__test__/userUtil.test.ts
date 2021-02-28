@@ -1,4 +1,4 @@
-import data from "../fixtures/fixture";
+import data from "../fixtures/userfixture";
 import {filterUserByFirstNameAndLastName} from '../userUtil'
 
 describe('User util', () => {
