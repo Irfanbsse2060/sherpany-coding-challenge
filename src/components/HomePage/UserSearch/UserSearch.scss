@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+.user-search {
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-template-columns: 25% 75%;
+
+  @media #{$small-max} {
+    grid-template-columns: 100%;
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+
+    button {
+      margin: 0px 10px;
+    }
+  }
+}

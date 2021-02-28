@@ -1,0 +1,1870 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage should be able to render 1`] = `
+<div>
+  <main
+    class="main-page"
+  >
+    <section
+      class="main-page__sign-up"
+    >
+      <h3>
+        Sign Up
+      </h3>
+      <form
+        class="sign-up-form"
+      >
+        <div
+          class="text-field"
+        >
+          <label
+            class="text-field__label"
+          >
+            Name
+          </label>
+          <input
+            class="text-field__input"
+            data-testid="text_field_name"
+            name="name"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="text-field"
+        >
+          <label
+            class="text-field__label"
+          >
+            Email
+          </label>
+          <input
+            class="text-field__input"
+            data-testid="text_field_email"
+            name="email"
+            required=""
+            type="email"
+            value=""
+          />
+        </div>
+        <div>
+          <div
+            class="dv-star-rating"
+            style="display: inline-block; position: relative;"
+          >
+            <input
+              class="dv-star-rating-input"
+              id="rate_5"
+              name="rate"
+              style="display: none; position: absolute; margin-left: -9999px;"
+              type="radio"
+              value="5"
+            />
+            <label
+              class="dv-star-rating-star dv-star-rating-empty-star"
+              for="rate_5"
+              style="float: right; cursor: pointer; color: rgb(51, 51, 51);"
+            >
+              <i
+                style="font-style: normal;"
+              >
+                ★
+              </i>
+            </label>
+            <input
+              class="dv-star-rating-input"
+              id="rate_4"
+              name="rate"
+              style="display: none; position: absolute; margin-left: -9999px;"
+              type="radio"
+              value="4"
+            />
+            <label
+              class="dv-star-rating-star dv-star-rating-empty-star"
+              for="rate_4"
+              style="float: right; cursor: pointer; color: rgb(51, 51, 51);"
+            >
+              <i
+                style="font-style: normal;"
+              >
+                ★
+              </i>
+            </label>
+            <input
+              class="dv-star-rating-input"
+              id="rate_3"
+              name="rate"
+              style="display: none; position: absolute; margin-left: -9999px;"
+              type="radio"
+              value="3"
+            />
+            <label
+              class="dv-star-rating-star dv-star-rating-empty-star"
+              for="rate_3"
+              style="float: right; cursor: pointer; color: rgb(51, 51, 51);"
+            >
+              <i
+                style="font-style: normal;"
+              >
+                ★
+              </i>
+            </label>
+            <input
+              class="dv-star-rating-input"
+              id="rate_2"
+              name="rate"
+              style="display: none; position: absolute; margin-left: -9999px;"
+              type="radio"
+              value="2"
+            />
+            <label
+              class="dv-star-rating-star dv-star-rating-empty-star"
+              for="rate_2"
+              style="float: right; cursor: pointer; color: rgb(51, 51, 51);"
+            >
+              <i
+                style="font-style: normal;"
+              >
+                ★
+              </i>
+            </label>
+            <input
+              class="dv-star-rating-input"
+              id="rate_1"
+              name="rate"
+              style="display: none; position: absolute; margin-left: -9999px;"
+              type="radio"
+              value="1"
+            />
+            <label
+              class="dv-star-rating-star dv-star-rating-empty-star"
+              for="rate_1"
+              style="float: right; cursor: pointer; color: rgb(51, 51, 51);"
+            >
+              <i
+                style="font-style: normal;"
+              >
+                ★
+              </i>
+            </label>
+          </div>
+        </div>
+        <div
+          class="text-box"
+        >
+          <label
+            class="text-box__label"
+          >
+            Comment
+          </label>
+          <textarea
+            class="text-box__input"
+            data-testid="text_area_comment"
+            name="comment"
+            required=""
+          />
+        </div>
+        <div>
+          <button
+            class="custom-button custom-button--primary"
+            data-testid="custom-button"
+          >
+            sign up
+          </button>
+        </div>
+      </form>
+    </section>
+    <section
+      class="main-page__trend"
+    >
+      <h3>
+        Trend
+      </h3>
+      <div>
+        line chart
+      </div>
+    </section>
+    <section
+      class="main-page__comment-list"
+    >
+      <h3>
+        Comments
+      </h3>
+      <ul
+        class="comment-list"
+        data-testid="comment_list"
+      >
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                john
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  6/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                john@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                jimmy
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  6/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                jimmy@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                Michael
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  6/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                Michael@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                Smith
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  6/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                Smith@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                Smith
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  6/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                Smith@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                john
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  6/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                john@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                jimmy
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  5/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                jimmy@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                Michael
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  5/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                Michael@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                john
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  1/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                john@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                jimmy
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  2/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                jimmy@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                Michael
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-empty-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(51, 51, 51);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  3/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                Michael@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="comment-list__item"
+        >
+          <img
+            alt="user-avatar"
+            class="comment-list__item__avatar"
+            src="user.svg"
+          />
+          <div>
+            <div
+              class="comment-list__item__header"
+            >
+              <h4>
+                Michael
+              </h4>
+              <div
+                class="comment-list__item__header__rating"
+              >
+                <div
+                  class="dv-star-rating dv-star-rating-non-editable"
+                  style="display: inline-block; position: relative;"
+                >
+                  <input
+                    checked=""
+                    class="dv-star-rating-input"
+                    id="rate_5"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_5"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_4"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_4"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_3"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_3"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_2"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_2"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                  <input
+                    class="dv-star-rating-input"
+                    id="rate_1"
+                    name="rate"
+                    style="display: none; position: absolute; margin-left: -9999px;"
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    class="dv-star-rating-star dv-star-rating-full-star"
+                    for="rate_1"
+                    style="float: right; cursor: default; color: rgb(255, 180, 0);"
+                  >
+                    <i
+                      style="font-style: normal;"
+                    >
+                      ★
+                    </i>
+                  </label>
+                </div>
+                 
+                <span>
+                  8:26:22 PM  3/21/2020
+                </span>
+              </div>
+            </div>
+            <div
+              class="comment-list__item__main"
+            >
+              <div>
+                Michael@gmail.com
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+         took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+</div>
+`;

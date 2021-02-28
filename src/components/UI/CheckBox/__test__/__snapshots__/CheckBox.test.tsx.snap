@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check Box should be able to render 1`] = `
+<div>
+  <ul
+    class="check-box"
+    data-testid="check-box"
+  >
+    <li
+      class="check-box__item"
+    >
+      <input
+        checked=""
+        id="CH"
+        name="CH"
+        type="checkbox"
+        value="CH"
+      />
+      <label
+        for="CH"
+      >
+        Canada (CH)
+      </label>
+    </li>
+    <li
+      class="check-box__item"
+    >
+      <input
+        id="ES"
+        name="ES"
+        type="checkbox"
+        value="ES"
+      />
+      <label
+        for="ES"
+      >
+        Spain (ES)
+      </label>
+    </li>
+    <li
+      class="check-box__item"
+    >
+      <input
+        id="FR"
+        name="FR"
+        type="checkbox"
+        value="FR"
+      />
+      <label
+        for="FR"
+      >
+        France (FR)
+      </label>
+    </li>
+  </ul>
+</div>
+`;

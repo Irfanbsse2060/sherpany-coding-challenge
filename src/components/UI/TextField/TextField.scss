@@ -1,0 +1,29 @@
+@import "../../../styles/variables";
+
+
+.text-field {
+  text-align: left;
+  width: 300px;
+
+  &__label {
+    display: block;
+    font-size: $font-size-small;
+    color: $scorpion;
+    margin-bottom: 2px;
+  }
+
+  &__input {
+    font-size: $font-size-base;
+    border-radius: 4px;
+    border: 2px solid $mercury;
+    width: 100%;
+    background: transparent;
+    line-height: 16px;
+    padding: 7px;
+
+     &:focus{
+      border-color: $color-brand;
+      outline: 0;
+    }
+  }
+}

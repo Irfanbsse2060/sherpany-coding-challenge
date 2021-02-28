@@ -1,0 +1,41 @@
+//fonts
+$font-size-small: 14px;
+$font-size-base: 16px;
+
+// colors
+$eastern-blue: #21bcb6;
+$mercury: #e9e9e9;
+$scorpion: #485465;
+$alto: #dadada;
+$white: #fff;
+$black: #404040;
+
+//global
+$color-brand: $eastern-blue;
+
+//button
+$primary-button-accent: $color-brand;
+$secondary-button-accent: $alto;
+
+
+
+// Media queries
+$screen-extra-small: 480px !default;
+$screen-small: 620px !default;
+$screen-medium: 768px !default;
+$screen-large: 1024px !default;
+$screen-extra-large: 1280px !default;
+$screen: 'only screen';
+$extra-small: 'only screen and (min-width: #{$screen-extra-small})';
+$small: 'only screen and (min-width: #{$screen-small})';
+$small-max: 'only screen and (max-width: #{$screen-small - 1})';
+$medium: 'only screen and (min-width: #{$screen-medium})';
+$medium-max: 'only screen and (max-width: #{$screen-medium - 1})';
+$large: 'only screen and (min-width: #{$screen-large})';
+$large-max: 'only screen and (max-width: #{$screen-large - 1})';
+$extra-large: 'only screen and (min-width: #{$screen-extra-large})';
+$landscape: 'only screen and (orientation: landscape)';
+$portrait: 'only screen and (orientation: portrait)';
+
+
+

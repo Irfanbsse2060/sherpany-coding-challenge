@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Field should be able to render 1`] = `
+<div>
+  <div
+    class="text-field"
+  >
+    <label
+      class="text-field__label"
+    >
+      label
+    </label>
+    <input
+      class="text-field__input"
+      data-testid="text_field_name"
+      name="name"
+      type="text"
+      value="test"
+    />
+  </div>
+</div>
+`;
+
+exports[`Text Field should be able to render with required 1`] = `
+<div>
+  <div
+    class="text-field"
+  >
+    <label
+      class="text-field__label"
+    >
+      label
+    </label>
+    <input
+      class="text-field__input"
+      data-testid="text_field_name"
+      name="name"
+      required=""
+      type="text"
+      value="test"
+    />
+  </div>
+</div>
+`;
