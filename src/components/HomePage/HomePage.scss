@@ -7,14 +7,9 @@
   grid-column-gap: 2rem;
   padding: 2rem;
 
-  &__search {
-    height: 15vh;
-  }
   &__users-list{
-    //height: 68vh;
-    //overflow: auto;
+    overflow-x:auto;
   }
-
   .thumbnail {
     border-radius: 24px;
     width: 48px;

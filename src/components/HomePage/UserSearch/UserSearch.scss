@@ -3,15 +3,24 @@
 .user-search {
   display: grid;
   grid-row-gap: 1rem;
-  grid-template-columns: 25% 75%;
 
-  @media #{$small-max} {
+
+  @media #{$extra-small} {
     grid-template-columns: 100%;
   }
+
+  @media #{$medium} {
+    grid-template-columns: 50% 50%;
+  }
+
+  @media #{$extra-large} {
+    grid-template-columns: 25% 75%;
+  }
+
   &__action {
     display: flex;
-    align-items: center;
-
+    align-items: flex-end;
+    justify-items: start;
     button {
       margin: 0px 10px;
     }

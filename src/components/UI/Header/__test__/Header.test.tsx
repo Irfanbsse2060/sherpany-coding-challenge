@@ -2,22 +2,12 @@ import React from 'react';
 import {render} from '@testing-library/react';
 import Header from '../index'
 import {BrowserRouter as Router} from "react-router-dom";
+import {linkWithRoutes} from "../../../../config/routes";
 
-describe('Text Field', () => {
-
-    const linkList = [
-        {
-            label: "Home",
-            url: "/"
-        },
-        {
-            label: "Settings",
-            url: "/settings"
-        }
-    ]
+describe('Header', () => {
     test('should be able to render', () => {
         const {container} = render(<Router>
-            <Header linkList={linkList}/>
+            <Header linkList={linkWithRoutes}/>
         </Router>);
         expect(container).toMatchSnapshot()
     })
