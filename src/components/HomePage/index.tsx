@@ -125,7 +125,7 @@ function HomePage() {
                 <UserSearch onSubmit={onSubmit} onClearFilter={() => updateIsFilterApplied(false)}/>
             </section>
             <section className='main-page__users-list'>
-                <h3>Users</h3>
+                <h3>Users {isFilterApplied && <i> ( pagination doesn't work with search filter )</i>}</h3>
                 {isFilterApplied ? renderTable() : renderInfiniteScrollTable()}
             </section>
         </main>

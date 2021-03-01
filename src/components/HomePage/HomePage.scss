@@ -9,6 +9,9 @@
 
   &__users-list{
     overflow-x:auto;
+    i {
+      font-weight: lighter;
+    }
   }
   .thumbnail {
     border-radius: 24px;
